@@ -150,7 +150,7 @@ const App = () => {
                                                 <img src={'imgs/blank.webp'} />
                                             </div>
                                             <div className='location-photo'>
-                                                <img src={'imgs/toronto.jpeg'} />
+                                                <img src={'imgs/toronto.jpeg'} id='temp'/>
                                             </div>
                                         </Stack>
                                         <div>
