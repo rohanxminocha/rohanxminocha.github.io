@@ -107,7 +107,19 @@ const dataProjects = [
         skills: 'Python, Django, JavaScript, Vue.js, Docker, PostgreSQL, Firebase',
         description:
             'A degree planner for students at the University of Waterloo, it scrapes the data from the Academic Calendar and displays the data according to the academic plans.',
-        img: 'UWPath.png',
+        img: 'uwpath.png',
+        logoScale: 1.5,
+    },
+    {
+        project: 'Spotify Profile',
+        start: new Date('Apr 1, 2023'),
+        end: new Date('May 23, 2023'),
+        link: 'https://spotify-profile.herokuapp.com/',
+        githubLink: 'https://github.com/rohanxminocha/spotify-profile',
+        skills: 'React, Express, Reach Router, Spotify API, Styled Components.',
+        description: 'A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.',
+        img: 'spotify-profile.png',
+        rounded: true,
         logoScale: 1.5,
     },
     {
@@ -118,7 +130,7 @@ const dataProjects = [
         githubLink: 'https://github.com/rohanxminocha/EmotionLens',
         skills: 'Python, OpenCV, Keras, NumPy, Flask, TensorFlow, Jupyter Notebook',
         description: 'A full-stack Python application built with Keras, Numpy, and deployed in Flask that recognizes facial expressions from a webcam or video using a trained neural network.',
-        img: 'EmotionLens.png',
+        img: 'emotionlens.png',
         rounded: true,
         logoScale: 1.5,
     },
@@ -130,7 +142,7 @@ const dataProjects = [
         githubLink: 'https://github.com/rohanxminocha/personal-website-v1',
         skills: 'JavaScript, Jekyll, HTML, CSS, jQuery',
         description: 'The first iteration of my personal website built a year ago to showcase my skills and experiences.',
-        img: 'Peronal Website v1.png',
+        img: 'personal-website-v1.png',
         logoScale: 1.5,
     }
 ];
@@ -147,10 +159,11 @@ const App = () => {
                                     <Stack direction='vertical' gap={4}>
                                         <Stack direction='horizontal' gap={3} className='header-images'>
                                             <div className='header-photo'>
-                                                <img src={'imgs/blank.webp'} />
+                                                <img src={'imgs/self-linkedin.png'}
+                                                />
                                             </div>
                                             <div className='location-photo'>
-                                                <img src={'imgs/toronto.jpeg'} id='temp'/>
+                                                <img src={'imgs/toronto.jpeg'} />
                                             </div>
                                         </Stack>
                                         <div>
