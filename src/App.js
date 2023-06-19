@@ -222,7 +222,7 @@ const App = () => {
                                                     <div class="status_light_led"></div>
                                                 </div>
                                                 <div class="status_message">
-                                                    Seeking 2023/2024 Internship opportunities! Check out
+                                                    Seeking 2023/2024 Internship opportunities! Reach out for
                                                     my <b>Resume</b> :&#41;
                                                 </div>
                                             </div>
