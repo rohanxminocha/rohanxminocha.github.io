@@ -211,7 +211,7 @@ const App = () => {
                                             ))}
                                         </Stack>
                                         <a
-                                            href={resumeLink}
+                                            href="mailto:mail@rminocha.com?subject=Join%20Our%20Team:%20Share%20Your%20Resume&body=Hey%20Rohan,%0D%0A%0D%0A[Your%20Message]%20Something%20like:%20Let%20me%20have%20a%20look%20at%20your%20resume%20:)%0D%0A%0D%0AThanks,%0D%0A[Your%20Name]"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="header-status-link"
