@@ -236,7 +236,7 @@ const App = () => {
                                                     <div class="status_light_led"></div>
                                                 </div>
                                                 <div class="status_message">
-                                                    Seeking 2023/2024 Internship opportunities! Reach out for
+                                                    Seeking 2024 Internship opportunities! Reach out for
                                                     my <b>Resume</b> :&#41;
                                                 </div>
                                             </div>
@@ -315,10 +315,10 @@ const App = () => {
                                                         {data.remote && " (Remote)"}
                                                     </p>
                                                 </Stack>
-                                                <Stack direction="horizontal" gap={2} className="mt-1">
-                                                    <IoConstructOutline />
-                                                    <p>{data.skills}</p>
-                                                </Stack>
+                                                // <Stack direction="horizontal" gap={2} className="mt-1">
+                                                //     <IoConstructOutline />
+                                                //     <p>{data.skills}</p>
+                                                // </Stack>
                                             </div>
                                         </Stack>
                                     </div>
