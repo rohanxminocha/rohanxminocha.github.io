@@ -315,10 +315,10 @@ const App = () => {
                                                         {data.remote && " (Remote)"}
                                                     </p>
                                                 </Stack>
-                                                // <Stack direction="horizontal" gap={2} className="mt-1">
-                                                //     <IoConstructOutline />
-                                                //     <p>{data.skills}</p>
-                                                // </Stack>
+                                                {/* <Stack direction="horizontal" gap={2} className="mt-1">
+                                                    <IoConstructOutline />
+                                                    <p>{data.skills}</p>
+                                                </Stack> */}
                                             </div>
                                         </Stack>
                                     </div>
