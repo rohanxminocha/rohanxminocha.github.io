@@ -45,44 +45,58 @@ const dataLinks = [
 
 const dataExperience = [
     {
+        company: "Intuit",
+        team: "GraphQL TurboTax team",
+        title: "Incoming Software Engineer Intern",
+        titleShort: "SWE Intern",
+        description: "💵 GraphQL TurboTax team",
+        location: "Toronto, ON",
+        start: new Date("September 5, 2023"),
+        end: new Date("December 22, 2023"),
+        logo: "logo_intuit.png",
+        logoScale: 0.95,
+        link: "https://www.intuit.com/ca/",
+        skills: "",
+    },
+    {
         company: "Trustwave",
         team: "Security information & event management",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "Security information & event management development",
+        description: "🔐 Platform and Analytics team",
         location: "Chicago, IL",
         start: new Date("January 9, 2023"),
         end: new Date("April 28, 2023"),
         logo: "logo_trustwave.png",
         logoScale: 0.95,
         link: "https://www.trustwave.com/en-us/",
-        skills: "Python, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins, AWS",
+        skills: "Python, Go, AWS, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins, Datadog"
     },
     {
         company: "Electro Source",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Full-stack & QA for mobile development",
+        description: "👾 API Integrations and Security team",
         location: "Toronto, ON",
         start: new Date("May 31, 2022"),
         end: new Date("August 19, 2022"),
         logo: "logo_electrosource.png",
         logoScale: 0.85,
         link: "https://electrosource.com/",
-        skills: "React Native, MongoDB, Docker, Kubernetes, Redis, AWS",
+        skills: "MERN, Python, Django, TypeScript, REST APIs, Docker, Kubernetes"
     },
     {
         company: "Elekta",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Full-stack for medical software development",
+        description: "🏥 Medical Software team",
         location: "Sunnyvale, CA",
         start: new Date("September 7, 2021"),
         end: new Date("December 23, 2021"),
         logo: "logo_elekta.png",
         logoScale: 0.95,
         link: "https://www.elekta.com/",
-        skills: "Java, C++, MySQL, Spring Boot, GraphQL",
+        skills: "Java, Spring Boot, C++, MySQL, JavaScript, GraphQL, Postman, XML, Azure"
     },
 ];
 
@@ -301,10 +315,10 @@ const App = () => {
                                                         {data.remote && " (Remote)"}
                                                     </p>
                                                 </Stack>
-                                                {/* <Stack direction="horizontal" gap={2} className="mt-1">
+                                                <Stack direction="horizontal" gap={2} className="mt-1">
                                                     <IoConstructOutline />
                                                     <p>{data.skills}</p>
-                                                </Stack> */}
+                                                </Stack>
                                             </div>
                                         </Stack>
                                     </div>
