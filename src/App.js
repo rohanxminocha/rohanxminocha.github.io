@@ -49,7 +49,7 @@ const dataExperience = [
         team: "GraphQL TurboTax team",
         title: "Incoming Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "💵 GraphQL TurboTax team",
+        description: "GraphQL TurboTax team",
         location: "Toronto, ON",
         start: new Date("September 5, 2023"),
         end: new Date("December 22, 2023"),
@@ -63,7 +63,7 @@ const dataExperience = [
         team: "Security information & event management",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "🔐 Platform and Analytics team",
+        description: "Platform and Analytics team",
         location: "Chicago, IL",
         start: new Date("January 9, 2023"),
         end: new Date("April 28, 2023"),
@@ -76,7 +76,7 @@ const dataExperience = [
         company: "Electro Source",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "👾 API Integrations and Security team",
+        description: "API Integrations and Security team",
         location: "Toronto, ON",
         start: new Date("May 31, 2022"),
         end: new Date("August 19, 2022"),
@@ -89,14 +89,14 @@ const dataExperience = [
         company: "Elekta",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "🏥 Medical Software team",
+        description: "Medical Software team",
         location: "Sunnyvale, CA",
         start: new Date("September 7, 2021"),
         end: new Date("December 23, 2021"),
         logo: "logo_elekta.png",
         logoScale: 0.95,
         link: "https://www.elekta.com/",
-        skills: "Java, Spring Boot, C++, MySQL, JavaScript, GraphQL, Postman, Azure"
+        skills: "Java, Spring Boot, C++, MySQL, JavaScript, GraphQL, Azure"
     },
 ];
 
