@@ -70,7 +70,7 @@ const dataExperience = [
         logo: "logo_trustwave.png",
         logoScale: 0.95,
         link: "https://www.trustwave.com/en-us/",
-        skills: "Python, Go, AWS, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins, Datadog"
+        skills: "Python, Go, AWS, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins"
     },
     {
         company: "Electro Source",
@@ -96,7 +96,7 @@ const dataExperience = [
         logo: "logo_elekta.png",
         logoScale: 0.95,
         link: "https://www.elekta.com/",
-        skills: "Java, Spring Boot, C++, MySQL, JavaScript, GraphQL, Postman, XML, Azure"
+        skills: "Java, Spring Boot, C++, MySQL, JavaScript, GraphQL, Postman, Azure"
     },
 ];
 
