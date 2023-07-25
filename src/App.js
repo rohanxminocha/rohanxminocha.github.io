@@ -49,7 +49,7 @@ const dataExperience = [
         team: "TurboTax GraphQL team",
         title: "Incoming Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "GraphQL TurboTax team",
+        description: "TurboTax GraphQL team",
         location: "Toronto, ON",
         start: new Date ("September 5, 2023"), 
         end: new Date ("December 22, 2023"), 
