@@ -45,6 +45,20 @@ const dataLinks = [
 
 const dataExperience = [
     {
+        company: "Intuit",
+        team: "TurboTax GraphQL team",
+        title: "Incoming Software Engineer Intern",
+        titleShort: "SWE Intern",
+        description: "GraphQL TurboTax team",
+        location: "Toronto, ON",
+        start: new Date ("September 5, 2023"), 
+        end: new Date ("December 22, 2023"), 
+        logo: "logo_intuit.png", 
+        logoScale: 0.95, 
+        link: "https://www.intuit.com/ca/", 
+        skills: "",
+    },
+    {
         company: "Trustwave",
         team: "Security information & event management",
         title: "Software Engineer Intern",
