@@ -194,7 +194,7 @@ const App = () => {
                                         <div>
                                             <h1>Rohan Minocha</h1>
                                             <h3>
-                                                Senior Computer Science Student @ University of Waterloo
+                                                Senior CS Student @ UWaterloo
                                             </h3>
                                             <Stack direction="horizontal" gap={2}>
                                                 <IoLocationOutline />
