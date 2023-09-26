@@ -1,7 +1,4 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable jsx-a11y/iframe-has-title */
-/* eslint-disable jsx-a11y/alt-text */
-import { React } from "react";
+import React from "react";
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import { IconContext } from "react-icons";
 import {
@@ -22,8 +19,6 @@ const dateOptions = {
     month: "short",
     year: "numeric",
 };
-
-const resumeLink = "files/resume.pdf";
 
 const dataLinks = [
     {
@@ -46,17 +41,17 @@ const dataLinks = [
 const dataExperience = [
     {
         company: "Intuit",
-        team: "TurboTax GraphQL team",
+        team: "GraphQL Platform team",
         title: "Incoming Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "TurboTax GraphQL team",
+        description: "GraphQL Platform team",
         location: "Toronto, ON",
         start: new Date ("September 5, 2023"), 
         end: new Date ("December 22, 2023"), 
         logo: "logo_intuit.png", 
         logoScale: 0.95, 
         link: "https://www.intuit.com/ca/", 
-        skills: "",
+        skills: "Java, Spring Boot, GraphQL, Jenkins, Argo CD, Docker, Kubernetes, Splunk",
     },
     {
         company: "Trustwave",
