@@ -1,7 +1,4 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable jsx-a11y/iframe-has-title */
-/* eslint-disable jsx-a11y/alt-text */
-import { React } from "react";
+import React from "react";
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import { IconContext } from "react-icons";
 import {
@@ -23,8 +20,6 @@ const dateOptions = {
     year: "numeric",
 };
 
-const resumeLink = "files/resume.pdf";
-
 const dataLinks = [
     {
         text: "Email",
@@ -45,44 +40,58 @@ const dataLinks = [
 
 const dataExperience = [
     {
+        company: "Intuit",
+        team: "GraphQL Platform team",
+        title: "Incoming Software Engineer Intern",
+        titleShort: "SWE Intern",
+        description: "GraphQL Platform team",
+        location: "Toronto, ON",
+        start: new Date ("September 5, 2023"), 
+        end: new Date ("December 22, 2023"), 
+        logo: "logo_intuit.png", 
+        logoScale: 0.95, 
+        link: "https://www.intuit.com/ca/", 
+        skills: "Java, Spring Boot, GraphQL, Jenkins, Argo CD, Docker, Kubernetes, Splunk",
+    },
+    {
         company: "Trustwave",
         team: "Security information & event management",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "Security information & event management development",
+        description: "Platform and Analytics team",
         location: "Chicago, IL",
         start: new Date("January 9, 2023"),
         end: new Date("April 28, 2023"),
         logo: "logo_trustwave.png",
         logoScale: 0.95,
         link: "https://www.trustwave.com/en-us/",
-        skills: "Python, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins, AWS",
+        skills: "Python, Go, AWS, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins"
     },
     {
         company: "Electro Source",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Full-stack & QA for mobile development",
+        description: "API Integrations and Security team",
         location: "Toronto, ON",
         start: new Date("May 31, 2022"),
         end: new Date("August 19, 2022"),
         logo: "logo_electrosource.png",
         logoScale: 0.85,
         link: "https://electrosource.com/",
-        skills: "React Native, MongoDB, Docker, Kubernetes, Redis, AWS",
+        skills: "MERN, Python, Django, TypeScript, REST APIs, Docker, Kubernetes"
     },
     {
         company: "Elekta",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Full-stack for medical software development",
+        description: "Medical Software team",
         location: "Sunnyvale, CA",
         start: new Date("September 7, 2021"),
         end: new Date("December 23, 2021"),
         logo: "logo_elekta.png",
         logoScale: 0.95,
         link: "https://www.elekta.com/",
-        skills: "Java, C++, MySQL, Spring Boot, GraphQL",
+        skills: "Java, Spring Boot, C++, MySQL, JavaScript, GraphQL, Azure"
     },
 ];
 
@@ -180,7 +189,7 @@ const App = () => {
                                         <div>
                                             <h1>Rohan Minocha</h1>
                                             <h3>
-                                                Junior Computer Science Student @ University of Waterloo
+                                                Senior CS Student @ UWaterloo
                                             </h3>
                                             <Stack direction="horizontal" gap={2}>
                                                 <IoLocationOutline />
@@ -222,7 +231,7 @@ const App = () => {
                                                     <div class="status_light_led"></div>
                                                 </div>
                                                 <div class="status_message">
-                                                    Seeking 2023/2024 Internship opportunities! Reach out for
+                                                    Seeking 2024 Internship opportunities! Reach out for
                                                     my <b>Resume</b> :&#41;
                                                 </div>
                                             </div>
