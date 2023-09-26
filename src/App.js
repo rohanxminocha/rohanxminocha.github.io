@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/alt-text */
-import { React } from "react";
+import React from "react";
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import { IconContext } from "react-icons";
 import {
@@ -23,8 +23,6 @@ const dateOptions = {
     year: "numeric",
 };
 
-const resumeLink = "files/resume.pdf";
-
 const dataLinks = [
     {
         text: "Email",
@@ -45,11 +43,39 @@ const dataLinks = [
 
 const dataExperience = [
     {
-        company: "Trustwave",
-        team: "Security information & event management",
+        company: "Intuit",
+        team: "GraphQL Platform team",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "Security information & event management development",
+        description: "GraphQL Platform team",
+        location: "Toronto, ON",
+        start: new Date("September 5, 2023"),
+        end: new Date("December 22, 2023"),
+        logo: "logo_intuit.png",
+        logoScale: 0.95,
+        link: "https://www.intuit.com/ca/",
+        skills: "Java, Spring Boot, Jenkins, Docker, Kubernetes, Argo CD, AWS",
+    },
+    {
+        company: "Waterloo Data Science Club",
+        team: "Web Development team",
+        title: "Back End Developer",
+        titleShort: "Back End Dev",
+        description: "Web Development team",
+        location: "Waterloo, ON",
+        start: new Date("September 5, 2023"),
+        end: new Date("December 22, 2023"),
+        logo: "logo_uwdsc.png",
+        logoScale: 0.95,
+        link: "https://www.uwdatascience.ca/",
+        skills: "Next.js, Tailwind CSS, Firebase",
+    },
+    {
+        company: "Trustwave",
+        team: "Platform and Analytics team",
+        title: "Software Engineer Intern",
+        titleShort: "SWE Intern",
+        description: "Platform and Analytics team",
         location: "Chicago, IL",
         start: new Date("January 9, 2023"),
         end: new Date("April 28, 2023"),
