@@ -54,7 +54,7 @@ const dataExperience = [
         logo: "logo_intuit.png",
         logoScale: 0.95,
         link: "https://www.intuit.com/ca/",
-        skills: "Java, Spring Boot, Jenkins, Docker, Kubernetes, Argo CD, AWS",
+        skills: "Java, Spring Boot, Jenkins, Docker, Kubernetes, Splunk, Argo CD, AWS",
     },
     {
         company: "Waterloo Data Science Club",
@@ -88,7 +88,7 @@ const dataExperience = [
         company: "Electro Source",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Full-stack & QA for mobile development",
+        description: "API Integrations and Security team",
         location: "Toronto, ON",
         start: new Date("May 31, 2022"),
         end: new Date("August 19, 2022"),
@@ -101,7 +101,7 @@ const dataExperience = [
         company: "Elekta",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Full-stack for medical software development",
+        description: "Medical Software team",
         location: "Sunnyvale, CA",
         start: new Date("September 7, 2021"),
         end: new Date("December 23, 2021"),
@@ -206,7 +206,7 @@ const App = () => {
                                         <div>
                                             <h1>Rohan Minocha</h1>
                                             <h3>
-                                                Junior Computer Science Student @ University of Waterloo
+                                                Senior Computer Science Student @ University of Waterloo
                                             </h3>
                                             <Stack direction="horizontal" gap={2}>
                                                 <IoLocationOutline />
@@ -248,7 +248,7 @@ const App = () => {
                                                     <div class="status_light_led"></div>
                                                 </div>
                                                 <div class="status_message">
-                                                    Seeking 2023/2024 Internship opportunities! Reach out for
+                                                    Seeking 2024 Internship opportunities! Reach out for
                                                     my <b>Resume</b> :&#41;
                                                 </div>
                                             </div>
