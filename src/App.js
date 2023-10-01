@@ -141,7 +141,7 @@ const dataProjects = [
         link: "https://spotify-profile.herokuapp.com/",
         githubLink: "https://github.com/rohanxminocha/spotify-profile",
         skills:
-            "React, Express, Reach Router, Spotify API, Styled Components",
+            "React, Express, Chart.js, Reach Router, Spotify API, Styled Components",
         description:
             "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
         img: "spotify-profile.png",
