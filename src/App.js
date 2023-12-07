@@ -237,7 +237,7 @@ const App = () => {
                                             ))}
                                         </Stack>
                                         <a
-                                            href="mailto:mail@rminocha.com?subject=Join%20Our%20Team:%20Share%20Your%20Resume&body=Hey%20Rohan,%0D%0A%0D%0A[Your%20Message]%20Something%20like:%20Let%20me%20have%20a%20look%20at%20your%20resume%20:)%0D%0A%0D%0AThanks,%0D%0A[Your%20Name]"
+                                            href="mailto:mail@rminocha.com?subject=Plot%20Twist:%20An%20Offer%20for%20Rohan!&amp;body=Hey%20Rohan,%0D%0A%0D%0ASo,%20I%20clicked%20this%20link%20thinking%20I'd%20ask%20for%20your%20resume,%20but%20plot%20twist:%20I%20actually%20want%20to%20give%20you%20a%20job%20offer!%20Surprise!%20🎉%0D%0A%0D%0AI%20stumbled%20upon%20your%20profile%20and%20wow,%20am%20I%20impressed!%20We're%20on%20the%20lookout%20for%20someone%20with%20your%20talents%20and%20skills,%20and%20I%20think%20you%20could%20be%20the%20perfect%20fit%20for%20a%20super%20exciting%20role%20we%20have.%0D%0A%0D%0ALet's%20flip%20the%20script%20-%20instead%20of%20you%20trying%20to%20impress%20us%20with%20your%20resume,%20how%20about%20we%20try%20to%20impress%20you%20with%20an%20offer?%20If%20you're%20up%20for%20it,%20I'd%20love%20to%20share%20more%20details%20and%20see%20if%20we%20can%20make%20some%20magic%20happen.%0D%0A%0D%0AThanks%20for%20being%20awesome,%0D%0A[Your%20Name]%0D%0A[Your%20Title]%20at%20[Your%20Organization]"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="header-status-link"
