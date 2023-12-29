@@ -44,24 +44,24 @@ const dataLinks = [
 const dataExperience = [
     {
         company: "Intuit",
-        team: "GraphQL Platform team",
+        team: "GraphQL API Management Platform",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "GraphQL Platform team",
+        description: "GraphQL API Management Platform",
         location: "Toronto, ON",
         start: new Date("September 5, 2023"),
         end: new Date("December 22, 2023"),
         logo: "logo_intuit.png",
         logoScale: 0.95,
         link: "https://www.intuit.com/ca/",
-        skills: "Java, Spring Boot, Jenkins, Docker, Kubernetes, Splunk, Argo CD, AWS",
+        skills: "Python, Java, TypeScript, Groovy, Kafka, Apollo, GraphQL, Beam, Docker, Kubernetes, Jenkins, Splunk, Argo, AWS",
     },
     {
         company: "Waterloo Data Science Club",
-        team: "Web Development team",
+        team: "Web Development",
         title: "Back End Developer",
         titleShort: "Back End Dev",
-        description: "Web Development team",
+        description: "Web Development",
         location: "Waterloo, ON",
         start: new Date("September 5, 2023"),
         end: new Date("December 22, 2023"),
@@ -72,43 +72,45 @@ const dataExperience = [
     },
     {
         company: "Trustwave",
-        team: "Platform and Analytics team",
+        team: "Platform and Analytics",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "Platform and Analytics team",
+        description: "Platform and Analytics",
         location: "Chicago, IL",
         start: new Date("January 9, 2023"),
         end: new Date("April 28, 2023"),
         logo: "logo_trustwave.png",
         logoScale: 0.95,
         link: "https://www.trustwave.com/en-us/",
-        skills: "Python, PostgreSQL, Redis, Kafka, Elasticsearch, Jenkins, AWS",
+        skills: "Python, Go, React, Flask, Kafka, Elasticsearch, Datadog, AWS, Prometheus, Grafana",
     },
     {
         company: "Electro Source",
+        team: "API Integrations and Security",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "API Integrations and Security team",
+        description: "API Integrations and Security",
         location: "Toronto, ON",
         start: new Date("May 31, 2022"),
         end: new Date("August 19, 2022"),
         logo: "logo_electrosource.png",
         logoScale: 0.85,
         link: "https://electrosource.com/",
-        skills: "React Native, MongoDB, Docker, Kubernetes, Redis, AWS",
+        skills: "Node.js, React, Spark, Hadoop, Jest, Redis, PostgreSQL, Docker, Kubernetes",
     },
     {
         company: "Elekta",
+        team: "Medical Software",
         title: "Software Developer Intern",
         titleShort: "SDE Intern",
-        description: "Medical Software team",
+        description: "Medical Software",
         location: "Sunnyvale, CA",
         start: new Date("September 7, 2021"),
         end: new Date("December 23, 2021"),
         logo: "logo_elekta.png",
         logoScale: 0.95,
         link: "https://www.elekta.com/",
-        skills: "Java, C++, MySQL, Spring Boot, GraphQL",
+        skills: "Java, C++, Spring Boot, GraphQL, REST, MySQL",
     },
 ];
 
@@ -206,7 +208,7 @@ const App = () => {
                                         <div>
                                             <h1>Rohan Minocha</h1>
                                             <h3>
-                                                Senior Computer Science Student @ University of Waterloo
+                                                Computer Science Student @ University of Waterloo
                                             </h3>
                                             <Stack direction="horizontal" gap={2}>
                                                 <IoLocationOutline />
