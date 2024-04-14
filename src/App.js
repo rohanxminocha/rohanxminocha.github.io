@@ -43,12 +43,26 @@ const dataLinks = [
 
 const dataExperience = [
     {
+        company: "Wealthsimple",
+        team: "Data Delivery Platform",
+        title: "Software Engineer Intern",
+        titleShort: "SWE Intern",
+        description: "Data Delivery Platform",
+        location: "Toronto, ON",
+        start: new Date("May 19, 2023"),
+        end: new Date("August 29, 2024"),
+        logo: "logo_wealthsimple.png",
+        logoScale: 0.95,
+        link: "https://www.wealthsimple.com/",
+        skills: "Python, Airflow, AWS (Redshift, S3, RDS), SQL",
+    },
+    {
         company: "Intuit",
         team: "GraphQL API Management Platform",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
         description: "GraphQL API Management Platform",
-        location: "Toronto, ON",
+        location: "Mountain View, CA",
         start: new Date("September 5, 2023"),
         end: new Date("April 26, 2024"),
         logo: "logo_intuit.png",
