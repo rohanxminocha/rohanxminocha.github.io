@@ -62,7 +62,7 @@ const dataExperience = [
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
         description: "GraphQL API Management Platform",
-        location: "Mountain View, CA",
+        location: "Toronto, ON",
         start: new Date("September 5, 2023"),
         end: new Date("April 26, 2024"),
         logo: "logo_intuit.png",
