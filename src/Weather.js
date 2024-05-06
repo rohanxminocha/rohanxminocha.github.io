@@ -5,7 +5,7 @@ const Weather = () => {
 
     useEffect(() => {
         const fetchWeather = async () => {
-            const apiKey = 'e956b40a8c1b431e879235022240505';
+            const apiKey = process.env.REACT_APP_API_KEY;
             const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=Toronto&aqi=yes`;
 
             try {
