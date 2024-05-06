@@ -1,6 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable jsx-a11y/iframe-has-title */
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { Col, Container, Row, Stack } from "react-bootstrap";
 import { IconContext } from "react-icons";

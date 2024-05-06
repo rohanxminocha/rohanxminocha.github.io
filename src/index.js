@@ -4,19 +4,25 @@ import ReactGA from 'react-ga';
 import Snowfall from 'react-snowfall';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Rain from './Rain';
+import Weather from './Weather';
 import App from './App';
 
 ReactGA.initialize('UA-145825675-1');
 ReactGA.pageview('/');
 
-ReactDOM.render(
-  <React.StrictMode>
-    <div style={{ background: '#282c34', position: 'relative' }}>
+const WeatherAnimation = () => {
+  const weather = Weather();
 
-      <Snowfall color='#f0eae4' snowflakeCount={200} radius={[1.0, 10.0]} />
+  return (
+    <React.StrictMode>
+      <div>
+        <App />
+        {weather === 'Snow' && <Snowfall color='#f0eae4' snowflakeCount={100} radius={[1.0, 10.0]} />}
+        {weather === 'Rain' && <Rain color='#5c4033' />}
+      </div>
+    </React.StrictMode>
+  );
+};
 
-      <App />
-    </div>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<WeatherAnimation />, document.getElementById('root'));
