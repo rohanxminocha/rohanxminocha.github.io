@@ -48,7 +48,7 @@ const dataExperience = [
         titleShort: "SWE Intern",
         description: "Data Delivery Platform",
         location: "Toronto, ON",
-        start: new Date("May 13, 2024"),
+        start: new Date("May 6, 2024"),
         end: new Date("August 29, 2024"),
         logo: "logo_wealthsimple.png",
         logoScale: 0.95,
