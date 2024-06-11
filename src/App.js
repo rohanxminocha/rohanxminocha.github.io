@@ -43,10 +43,10 @@ const dataLinks = [
 const dataExperience = [
     {
         company: "Wealthsimple",
-        team: "Data Delivery Platform",
+        team: "Data Platform",
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
-        description: "Data Delivery Platform",
+        description: "Data Platform",
         location: "Toronto, ON",
         start: new Date("May 6, 2024"),
         end: new Date("August 29, 2024"),
