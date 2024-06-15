@@ -290,6 +290,10 @@ img.roundedCorners {
     color: var(--bs-gray-500);
 }
 
+.section-footer-question {
+    color: #a9a9a9;
+}
+
 .resume {
     margin: auto;
     display: flex;

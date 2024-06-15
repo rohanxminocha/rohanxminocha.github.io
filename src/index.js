@@ -4,8 +4,8 @@ import ReactGA from 'react-ga';
 import Snowfall from 'react-snowfall';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Rain from './Rain';
-import Weather from './Weather';
+import Rain from './components/Rain';
+import Weather from './components/api/Weather';
 import App from './App';
 
 ReactGA.initialize('UA-145825675-1');
