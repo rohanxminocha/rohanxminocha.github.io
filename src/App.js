@@ -67,12 +67,12 @@ const dataExperience = [
         title: "Software Engineer Intern",
         titleShort: "SWE Intern",
         description: "GraphQL API Management Platform",
-        location: "Toronto, ON",
+        location: "Mountain View, CA",
         start: new Date("September 5, 2023"),
         end: new Date("April 26, 2024"),
         logo: "logo_intuit.png",
         logoScale: 0.95,
-        link: "https://www.intuit.com/ca/",
+        link: "https://www.intuit.com/",
         skills: "Python, Java, TypeScript, Groovy, Kafka, Apollo, GraphQL, Beam, Docker, Kubernetes, Jenkins, Splunk, Argo, AWS",
     },
     {
@@ -100,7 +100,7 @@ const dataExperience = [
         end: new Date("April 28, 2023"),
         logo: "logo_trustwave.png",
         logoScale: 0.95,
-        link: "https://www.trustwave.com/en-us/",
+        link: "https://www.trustwave.com/",
         skills: "Python, Go, React, Flask, Kafka, Elasticsearch, Datadog, AWS, Prometheus, Grafana",
     },
     {
