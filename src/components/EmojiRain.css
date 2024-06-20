@@ -1,0 +1,14 @@
+.emoji {
+    position: fixed;
+    top: 0;
+    font-size: 1.5rem;
+    z-index: 1000;
+    pointer-events: none;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(150vh);
+    }
+}
