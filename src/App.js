@@ -59,7 +59,7 @@ const dataExperience = [
         logo: "logo_wealthsimple.png",
         logoScale: 0.95,
         link: "https://www.wealthsimple.com/",
-        skills: "Python, Airflow, AWS (Redshift, S3, RDS), SQL",
+        skills: "Python, Airflow, AWS (Redshift, S3, RDS, ECR), SQL, Terraform",
     },
     {
         company: "Intuit",
@@ -255,7 +255,7 @@ const App = () => {
                                 <p>&copy; Rohan Minocha, {new Date().getFullYear()}</p>
                             </div>
                             <div className="d-flex justify-content-center section-footer-question">
-                                <p>{showEasterEgg ? 'Can you find the easter eggs❓' : 'Guess you found the easter eggs, or did you❓🤔'}</p>
+                                <p>{showEasterEgg ? 'Guess you found the easter eggs, or did you❓🤔' : 'Can you find the easter eggs❓'}</p>
                             </div>
                         </Col>
                     </Row>
